@@ -10,12 +10,12 @@
 //example of an array
 // simple arrys of numbers
 //An example of Index Array
-$numbers=[1,2,3,4,5,6,7,8,9];
+//$numbers=[1,2,3,4,5,6,7,8,9];
 
 
 // simple array of strings
-$colors= ["white,red,blue,black,yellow,orange,<br>"];
-$colorss= "colourless";
+//$colors= ["white,red,blue,black,yellow,orange,<br>"];
+//$colorss= "colourless";
 //echo $colorss;
 //echo $colors[4];
 //var_dump($colors);
@@ -24,7 +24,7 @@ $colorss= "colourless";
 //1.index arrays 
 // 2: Associative Arrays- they allow us  to use name keys to identify values
 // single dimention arrays
-$rangi=[
+/*$rangi=[
   'red' => '#f00',
   'green' => '#0f0',
   'blue' => '00f',
@@ -32,8 +32,8 @@ $rangi=[
 echo count($rangi);
 //echo $rangi['red'];
 //var_dump($rangi);
-// 3: multidimention arrays
-$people = [
+// 3: multidimention arrays*/
+/*$people = [
   $person1=[
     'first name' => 'Ruth',
     'last name' => 'Gitau',
@@ -55,6 +55,7 @@ $people = [
   ];
  
    echo $people[1]['email addres'];
+   */
 
    /*assignment
    Create a php script which displays the capital and coutry name from the array $countcap .Sort the list by the name of the capital*/
@@ -64,12 +65,13 @@ $people = [
      "Portugal"=>"Lisbon","Spain"=>"Madrid","Sweden"=>"Stockholm", "United kingdom"=>"London", "Cyprus"=>"Nicosia", "Lithuana"=>"Vilnius",
      "Czech Republic"=>"Prague", "Estonia"=>"Tallin", "Hungary"=>"Budapest", "Latvia"=>"Riga", "Malta"=>"Valleta", "Austria"=>"Vienna",
      "Poland"=>"Warsaw");
+     asort($countcap);
+     foreach($countcap as $country =>$capital){
+      echo "$country = $capital <br>";
+     }
 
-   asort($countcap);
+  
 
-   // Display the country name and capital
-   foreach ($countcap as $country => $capital) {
-       echo "Country: " . $country . ", Capital: " . $capital . "<br>";
-   }
 
+   
 

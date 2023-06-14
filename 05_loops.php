@@ -1,4 +1,7 @@
 <?php
+//control structures are divided into control statements and loops.
+//control statements are basd on a true or false basis
+//
 
 /* -------- Loops & Iteration ------- */
 
@@ -35,7 +38,7 @@ do...while loop will always execute the block of code once, even if the conditio
 
 
 
-/* ---------- Foreach Loop ---------- */
+/* ---------- Foreach Loop ----------  */
 
 /*
 ** Foreach Loop Syntax
