@@ -86,13 +86,13 @@ else{
 //write a php program to check whether a number is positive negative or a zero
 $num=5;
 if($num>0){
-  echo"number is positive";
+  echo"number is positive<br>";
 }
 elseif($num<0){
-  echo"number is negative";
+  echo"number is negative<br>";
 }
 else{
-  echo"number is zero";
+  echo"number is zero<br>";
 }
 
 
@@ -104,4 +104,27 @@ else{
 */
 
 
-/* -------- Switch Statements ------- */
+/* -------- Switch Statements -------
+
+*/
+$FavFood="chapati";
+switch($FavFood){
+  case 'mushrooms':
+    echo"my favorite food is mushrooms";
+    break;
+
+    case 'chapati':
+      echo"my favorite food is chapati";
+      break;
+
+      case 'fries':
+        echo"my favorite food is fries";
+        break;
+
+        case 'githeri':
+          echo"my favorite food is githeri";
+          break;
+
+          default:
+          echo "my favorite food is chapati";
+}

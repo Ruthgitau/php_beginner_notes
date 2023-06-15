@@ -40,6 +40,13 @@ echo count($rangi);
     'email addres' => 'gitaur72 @gmail.com'
     ],
 
+
+
+
+
+
+    
+
   $person2=[
     'first name' => 'Sheila',
     'last name' => 'Gitau',
@@ -70,8 +77,13 @@ echo count($rangi);
       echo "$country = $capital <br>";
      }
 
+     echo"Enter your name";
+     $name=fgets(STDIN);
+     echo"Your name is ".$name;
+
   
 
 
    
 
+     
