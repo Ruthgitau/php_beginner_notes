@@ -66,3 +66,8 @@ while($value<=20);
   // code to be executed
   }
 */
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $value) {
+  echo "$value <br>";
+}

@@ -78,7 +78,7 @@ echo count($rangi);
      }
 
      echo"Enter your name";
-     $name=fgets(STDIN);
+     $name=readline("Enter your name");
      echo"Your name is ".$name;
 
   
