@@ -18,9 +18,9 @@ function hellomessage(){
 }
 hellomessage();
 
-function myname($fname, $lname){git
-  $mename=$fname . $lname;
-  echo $mename;
+function myname($fname ,$lname){
+  $mename=$fname.$lname;
+  echo "$mename <br>";
 }
 myname("Ruth", "Gitau");
 
@@ -30,11 +30,17 @@ function addingfunction($num1, $num2){
   echo "$sum<br>";
 
 }
+addingfunction(4,9);
+
+
 //subtracting function
 function subfunction($no1, $no2){
   $sub=$no1-$no2;
   echo"$sub<br>";
 }
+subfunction(54,20);
+
+
 //multiplying function
 function mult($n1,$n2){
   $mul=$n1*$n2;
