@@ -16,7 +16,7 @@ array_push($fruits ,"kiwi","thornmelon", "dates");
 //function to remove an element from an array
 //pop--removes the last item in an array
 array_pop($fruits);
-//shift--removes first element inan array
+//shift--removes first element in an array
 array_shift($fruits);
 //unset--removes any specific element mentioned
 unset($fruits[0]);

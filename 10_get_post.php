@@ -9,6 +9,7 @@ if (isset($_POST['submit'])){
 
   echo '<h3>' . $_POST['username'] . '<h3>';
 } ?>
+/*embedding html in php*/  
 
 <!--Pass data through a link-->
 <a href="<?php echo $_SERVER['PHP_SELF']; ?>?username=Brad">Link</a>
@@ -33,4 +34,3 @@ if (isset($_POST['submit'])){
 
 
 </form>
-
