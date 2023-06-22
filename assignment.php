@@ -94,9 +94,9 @@ for($a=1; $a<=10; $a++){
  Create a script using a for loop to add all the integers between 0 and 30 
 and display the total.
 */
-$sumofnums=0;
+$total=0;
 for($y=1;$y<=30;$y++){
-    $total=$sumofnums + $y;
+    $total += $y;
 }
 echo $total;
 
@@ -106,6 +106,12 @@ echo"<br>";
 
 /*QUESTION 7
 Create a script to construct the following pattern, using nested for loop.*/
+for ($a=1;$a<=5;$a++){
+    for  ($b=1;$b<=$a;$b++){
+    echo "*<br>";
+
+}
+}
 
 
 
