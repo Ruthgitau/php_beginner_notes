@@ -85,6 +85,7 @@ for($a=1; $a<=10; $a++){
     }
     else{
         echo "$a". "\n";
+        echo"<br>";
     }
 }
 
@@ -93,6 +94,55 @@ for($a=1; $a<=10; $a++){
  Create a script using a for loop to add all the integers between 0 and 30 
 and display the total.
 */
+$sumofnums=0;
+for($y=1;$y<=30;$y++){
+    $total=$sumofnums + $y;
+}
+echo $total;
+
+echo"<br>";
+
+
+
+/*QUESTION 7
+Create a script to construct the following pattern, using nested for loop.*/
+
+
+
+/*QUESTION 8
+Write a PHP script using nested for loop that creates a chess board as 
+shown below.
+Use table width="270px" and take 30px as cell height and width.*/
+
+
+
+/*QUESTION 9
+. Write a PHP program to compute the sum of the two given integer values. 
+If the two values are the same, then returns triple their sum.
+Sample Input
+1, 2
+3, 2
+2, 2
+Sample Output:
+3
+5
+12 */
+function numbers($num1,$num2){
+    $sum=$num1+$num2;
+    $triplesum=$sum * 3;
+    if($num1 != $num2){
+        echo $sum;
+    }
+    else{
+        echo $triplesum;
+    }
+}
+numbers(4,4);
+
+
+
+
+
 
 
 
