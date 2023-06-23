@@ -108,17 +108,11 @@ echo"<br>";
 Create a script to construct the following pattern, using nested for loop.*/
 for ($a=1;$a<=5;$a++){
     for  ($b=1;$b<=$a;$b++){
-    echo "*<br>";
+    echo "*  ";
 
 }
+echo "<br>";
 }
-
-
-
-/*QUESTION 8
-Write a PHP script using nested for loop that creates a chess board as 
-shown below.
-Use table width="270px" and take 30px as cell height and width.*/
 
 
 
@@ -143,9 +137,42 @@ function numbers($num1,$num2){
         echo $triplesum;
     }
 }
-numbers(4,4);
+numbers(1,2);
+echo "<br>";
+numbers(3,2);
+echo "<br>";
+numbers(2,2);
+echo "<br>";
 
 
+/*QUESTION 8
+Write a PHP script using nested for loop that creates a chess board as 
+shown below.
+Use table width="270px" and take 30px as cell height and width.*/
+?>
+
+<!DOCTYPE html>
+<html> 
+<body>
+<table width=270px border="1px">
+<?php
+for ($row=1; $row<=8;$row++){
+    echo "<tr>";
+    for ($col=1;$col<=8; $col++){
+        $total=$col+$row;
+        if($total%2==0){
+            echo "<td height=30px width=30px bgcolor=#000000></td>";
+        }
+        else{
+            echo "<td height=30px width=30px bgcolor=#FFFFFF></td>";
+        }
+  }  
+  echo"</tr>";    
+}?>
+
+</table>
+</body>
+</html>
 
 
 
