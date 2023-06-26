@@ -38,7 +38,7 @@ $game1->photo='fifa.jpg';
 
 $game1->print_game();
 
-$game2=new Game;
+$game2 =new Game;
 $game2->name="ASSASSIN'S CREED";
 $game2->price=400;
 $game2->photo='assasins.jpg';
@@ -57,7 +57,7 @@ $game4->name="GHOST";
 $game4->price=700;
 $game4->photo='ghost.jpg';
 
-$game4->print_game();
+$game4->print_game(); 
 
 
 $game5=new Game;
