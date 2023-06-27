@@ -81,3 +81,6 @@ echo"<br>";
 /* Write a php program to reverse the string technology */
 $string="technology";
 echo strrev($string);
+
+
+
