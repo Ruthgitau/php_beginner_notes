@@ -1,0 +1,7 @@
+<?php
+$base_row=10;
+$top_row=6;
+$no_rows=2;
+$one_row=$base_row + $top_row;
+$total=$no_rows * $one_row;
+?>
